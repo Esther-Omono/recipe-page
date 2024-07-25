@@ -97,6 +97,13 @@ hr {
     border-radius: 10px;
 }
 
+.preparation-time h2 {
+    font-family: "Outfit", sans-serif;
+    color: var(--Rose800);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .preparation-time p {
     color: var(--Rose800);
     font-weight: 700;
