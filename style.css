@@ -1,9 +1,50 @@
 /* Fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 /* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+main {
+    background-color: var(--White);
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+  
+
+.recipe-image {
+    max-width: 100%;
+}
+
+
+.recipe-details {
+    margin: 25px 50px;
+}
+
+ul, ol {
+    list-style-position: outside;
+    padding-left: 15px;
+}
+
+li {
+    padding-left: 15px;
 }
